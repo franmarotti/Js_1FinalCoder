@@ -1,0 +1,49 @@
+body{
+    margin: 0px;
+    background-color: darkred;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.pagina-nav{
+    border: 1px solid black;
+    background-color: whitesmoke;
+    border: 1px solid black;
+}
+.pagina-contenido{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 1px solid red;
+}
+.pagina-nav h1{
+    margin: 1.5rem;
+}
+.producto{
+    margin-left: 15px;
+    padding: 2px 16px;
+    position: relative;
+}
+.producto img{
+    width: 300px;
+}
+.producto:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.button{
+    transition-duration: 0.3s;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    margin: 0px 0px 10px;
+}
+.button:hover{
+    color: darkred
+}
+h2{
+    color: white;
+}
+.button-check{
+    transition-duration: 0.3s;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    margin: 0px 20px 10px;
+}
